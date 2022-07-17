@@ -1,0 +1,10 @@
+name: game-of-life
+channels:
+  - defaults
+dependencies:
+  - pip=22.1.2
+  - python=3.10.4
+  - pip:
+      - pylint==2.8.2
+      - pygame==2.1.2
+      - numpy==1.23.1
